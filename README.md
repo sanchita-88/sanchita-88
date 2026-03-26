@@ -1,26 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,20&height=180&section=header&text=Sanchita%20Sabat&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineer%20%C2%B7%20Agentic%20AI%20Systems%20%C2%B7%20Cloud%20Infrastructure&descAlignY=55&descSize=16" width="100%"/>
-
-<br/>
+![hero](./hero.svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanchita-sabat)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanchita-88)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanchitasabat@gmail.com)
 
-<br/>
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Building+production+systems%2C+not+just+demos.;FastAPI+%C2%B7+AWS+%C2%B7+Kubernetes+%C2%B7+LangGraph;Deployed+on+real+infrastructure.+Not+localhost.;3rd+Year+CS+%40+Manipal+University+Jaipur+%C2%B7+2027)
-
 </div>
 
-<br/>
 
----
-
-## ⚡ TL;DR — For Recruiters
-
-<table>
 <tr>
 <td width="48%">
 
@@ -65,8 +53,6 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=sanchita-88&theme=tokyonight&hide_border=true&background=0D1117" width="49%"/>
-
-<br/>
 
 </div>
 
@@ -317,8 +303,6 @@ Tag-based weighted heuristic engine · real-time tag score matrix updates · **E
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,20&height=100&section=footer&animation=twinkling" width="100%"/>
 
 *Open to backend · full-stack · AI/ML engineering internships · 2025–26 cycle*
 
