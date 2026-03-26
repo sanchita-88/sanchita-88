@@ -1,0 +1,70 @@
+<svg width="100%" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="280" rx="0" fill="#0D1117"/>
+  <g stroke="#1E3A5F" stroke-width="0.8" fill="none" opacity="0.7">
+    <line x1="0" y1="40" x2="120" y2="40"/>
+    <line x1="0" y1="80" x2="60" y2="80"/>
+    <line x1="0" y1="140" x2="90" y2="140"/>
+    <line x1="0" y1="200" x2="70" y2="200"/>
+    <line x1="0" y1="240" x2="110" y2="240"/>
+    <line x1="560" y1="30" x2="680" y2="30"/>
+    <line x1="580" y1="70" x2="680" y2="70"/>
+    <line x1="550" y1="120" x2="680" y2="120"/>
+    <line x1="590" y1="180" x2="680" y2="180"/>
+    <line x1="560" y1="230" x2="680" y2="230"/>
+    <line x1="570" y1="260" x2="680" y2="260"/>
+    <line x1="60" y1="0" x2="60" y2="80"/>
+    <line x1="90" y1="0" x2="90" y2="140"/>
+    <line x1="110" y1="240" x2="110" y2="280"/>
+    <line x1="120" y1="40" x2="120" y2="0"/>
+    <line x1="580" y1="0" x2="580" y2="70"/>
+    <line x1="560" y1="30" x2="560" y2="0"/>
+    <line x1="590" y1="180" x2="590" y2="280"/>
+    <line x1="620" y1="0" x2="620" y2="30"/>
+    <line x1="550" y1="120" x2="550" y2="280"/>
+    <polyline points="0,200 70,200 70,280"/>
+    <polyline points="0,240 110,240 110,280"/>
+    <polyline points="560,230 560,260 680,260"/>
+  </g>
+  <g fill="#1E4A7A" opacity="0.9">
+    <circle cx="60" cy="80" r="3"/>
+    <circle cx="90" cy="140" r="3"/>
+    <circle cx="110" cy="240" r="3"/>
+    <circle cx="120" cy="40" r="3"/>
+    <circle cx="70" cy="200" r="4"/>
+    <circle cx="580" cy="70" r="3"/>
+    <circle cx="550" cy="120" r="3"/>
+    <circle cx="560" cy="230" r="3"/>
+    <circle cx="590" cy="180" r="4"/>
+    <circle cx="620" cy="30" r="3"/>
+  </g>
+  <circle cx="70" cy="200" r="4" fill="#378ADD" opacity="0.6"/>
+  <circle cx="590" cy="180" r="4" fill="#378ADD" opacity="0.6"/>
+  <circle cx="90" cy="140" r="3" fill="#1D9E75" opacity="0.5"/>
+  <circle cx="550" cy="120" r="3" fill="#1D9E75" opacity="0.5"/>
+  <rect x="160" y="40" width="2" height="200" fill="#185FA5" opacity="0.4" rx="1"/>
+  <text x="186" y="105" font-family="Fira Code,Consolas,monospace" font-size="38" font-weight="700" fill="#E6F1FB" letter-spacing="-0.5">Sanchita Sabat</text>
+  <text x="187" y="138" font-family="Fira Code,Consolas,monospace" font-size="14" fill="#6AD3F7" letter-spacing="0.3">Backend Engineer · Agentic AI · Cloud Infrastructure</text>
+  <line x1="186" y1="155" x2="520" y2="155" stroke="#1E3A5F" stroke-width="0.8"/>
+  <rect x="186" y="167" width="110" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
+  <circle cx="201" cy="179" r="4" fill="#FF9900"/>
+  <text x="210" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">AWS · Deployed</text>
+  <rect x="306" y="167" width="88" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
+  <circle cx="321" cy="179" r="4" fill="#1D9E75"/>
+  <text x="330" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">6 Projects</text>
+  <rect x="404" y="167" width="116" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
+  <circle cx="419" cy="179" r="4" fill="#7F77DD"/>
+  <text x="428" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">99.17% BERT</text>
+  <text x="187" y="222" font-family="Fira Code,Consolas,monospace" font-size="12">
+    <tspan fill="#2E6DA4">$</tspan>
+    <tspan fill="#6AD3F7"> whoami </tspan>
+    <tspan fill="#B4B2A9">→  3rd yr CSE · Manipal University Jaipur · 2027</tspan>
+  </text>
+  <text x="187" y="246" font-family="Fira Code,Consolas,monospace" font-size="12">
+    <tspan fill="#2E6DA4">$</tspan>
+    <tspan fill="#6AD3F7"> status  </tspan>
+    <tspan fill="#B4B2A9">→  open to backend · AI/ML internships · 2025-26</tspan>
+  </text>
+  <rect x="187" y="258" width="8" height="14" rx="1" fill="#6AD3F7" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
