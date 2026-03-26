@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sanchita%20Sabat&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineer%20%C2%B7%20Agentic%20AI%20Systems%20%C2%B7%20Cloud%20Infrastructure&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,20&height=180&section=header&text=Sanchita%20Sabat&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineer%20%C2%B7%20Agentic%20AI%20Systems%20%C2%B7%20Cloud%20Infrastructure&descAlignY=55&descSize=16" width="100%"/>
 
 <br/>
 
@@ -66,9 +66,7 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 
 <img src="https://streak-stats.demolab.com?user=sanchita-88&theme=tokyonight&hide_border=true&background=0D1117" width="49%"/>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=sanchita-88&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6"/>
+<br/>
 
 </div>
 
@@ -320,7 +318,7 @@ Tag-based weighted heuristic engine · real-time tag score matrix updates · **E
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,20&height=100&section=footer&animation=twinkling" width="100%"/>
 
 *Open to backend · full-stack · AI/ML engineering internships · 2025–26 cycle*
 
