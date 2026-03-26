@@ -86,8 +86,6 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 
 </div>
 
-> ⚙️ **To activate the snake:** Create a repo named `sanchita-88`, add this README as `README.md`, then add a GitHub Actions workflow at `.github/workflows/snake.yml` — see setup instructions at the bottom of this README.
-
 ---
 
 ## 🔬 Research
@@ -317,40 +315,6 @@ Tag-based weighted heuristic engine · real-time tag score matrix updates · **E
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
-
----
-
-## ⚙️ Snake Animation Setup
-
-To activate the contribution snake on your profile, create a file at `.github/workflows/snake.yml` in this repo:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: sanchita-88
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to **Settings → Actions → General → Workflow permissions** and enable **Read and write permissions**. Run the workflow once manually and the snake will appear.
 
 ---
 
