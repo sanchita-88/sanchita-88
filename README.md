@@ -16,7 +16,7 @@
 3rd year B.Tech CSE · Manipal University Jaipur · Class of 2027
 
 **🔍 Looking for**
-Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
+Backend · Full-Stack · AI/ML Engineering Internships 
 
 **🏆 Highlights**
 - 📄 IEEE-published researcher — [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11507896) (ICTMIM 2026)
