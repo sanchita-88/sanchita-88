@@ -8,7 +8,7 @@
 
 </div>
 
-
+<table>
 <tr>
 <td width="48%">
 
@@ -20,7 +20,8 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 
 **🏆 Highlights**
 - 🇮🇳 AI for Bharat Hackathon 2026 (AWS-sponsored)
-- 📄 Research manuscript under peer review
+- 📄 IEEE-published researcher — IEEE Xplore (ICTMIM 2026)
+- 💼 Goldman Sachs India CS Hackathon 2026
 - ☁️ AWS Academy Graduate — Cloud Foundations
 
 </td>
@@ -31,6 +32,7 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 | Project | Stack | Live? |
 |---|---|---|
 | [ContextKeeper](https://github.com/sanchita-88/contextkeeper) | FastAPI · AWS · RAG · Qdrant | ✅ [AWS](https://main.dzpsjg5p7bzun.amplifyapp.com/) |
+| [AeroFocus](https://github.com/sanchita-88/aerofocus) | Spring Boot · Redis · WebSocket | ✅ Render |
 | [Alpha Council](https://github.com/sanchita-88/Alpha-Council) | LangGraph · MCP · Groq | ✅ [Vercel](https://v0-rhetora-stock-analyst.vercel.app/) |
 | [TeleServe](https://github.com/sanchita-88/TeleServe) | Java EE · JDBC · MySQL | ✅ Screenshots |
 | [PriceRadar](https://github.com/sanchita-88/distributed-price-comparison-k8s) | K8s · Docker · FastAPI | 🔨 Active |
@@ -94,14 +96,14 @@ Fine-tuned `BERT (bert-base-uncased)` on **18,000+ postings**
 <td>
 
 **PCOS Clinical Risk Prediction** · Jan–May 2025
-12+ ML/DL models · Bayesian Optimization · SMOTEENN · 541 patients
+IEEE Xplore · ICTMIM 2026 · 12+ ML/DL models · Bayesian Optimization · SMOTEENN · 541 patients · 50 reproducibility trials
 
 </td>
 <td align="center">
 
-![Accuracy](https://img.shields.io/badge/Accuracy-88.07%25-green?style=flat-square)
-![F1](https://img.shields.io/badge/F1_Score-83.54%25-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Under_Review-orange?style=flat-square)
+![Accuracy](https://img.shields.io/badge/Accuracy-89.91%25-brightgreen?style=flat-square)
+![F1](https://img.shields.io/badge/F1_Score-85.71%25-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Published-success?style=flat-square)
 
 </td>
 </tr>
@@ -156,6 +158,23 @@ Fine-tuned `BERT (bert-base-uncased)` on **18,000+ postings**
 context snapshots · RAG-powered codebase Q&A · Mermaid.js diagrams · function-level impact analysis · interruption triage · AI re-orientation briefings
 
 `FastAPI` `AWS EC2` `AWS API Gateway` `AWS Amplify` `AWS Bedrock` `Qdrant` `Tree-sitter` `NetworkX` `SQLAlchemy async` `Next.js 14` `LangChain` `Groq Llama 3`
+
+</details>
+
+---
+
+<details open>
+<summary><b>✈️ AeroFocus — Airport-Themed Real-Time Focus Timer</b> &nbsp;|&nbsp; <a href="https://github.com/sanchita-88/aerofocus">GitHub</a> &nbsp;|&nbsp; <a href="#">Live Demo ↗</a> &nbsp;|&nbsp; <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=white"/></summary>
+
+<br/>
+
+> *A departures board for your deep work — watch your focus sessions board like flights.*
+
+**Real-time board engine** on Spring Boot 4 with a scheduled departures board using **Haversine great-circle** computation for flight-duration estimation · Redis (Upstash) snapshot caching with **STOMP/WebSocket broadcast every 45s** · REST polling fallback for graceful degradation on cold-start infra.
+
+**Stateless JWT auth** via Spring Security filter chain · BCrypt hashing · per-user ownership enforcement · Spring Data JPA + PostgreSQL (Neon) with JPQL-computed aggregate focus stats · Next.js (TypeScript) frontend on Vercel with Framer Motion split-flap animations.
+
+`Spring Boot 4` `Spring Security` `Spring Data JPA` `Redis` `PostgreSQL` `WebSocket/STOMP` `Next.js` `Framer Motion`
 
 </details>
 
@@ -282,6 +301,7 @@ Tag-based weighted heuristic engine · real-time tag score matrix updates · **E
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -295,6 +315,7 @@ Tag-based weighted heuristic engine · real-time tag score matrix updates · **E
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
