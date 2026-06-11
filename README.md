@@ -19,9 +19,9 @@
 Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 
 **🏆 Highlights**
-- 🇮🇳 AI for Bharat Hackathon 2026 (AWS-sponsored)
-- 📄 IEEE-published researcher — IEEE Xplore (ICTMIM 2026)
-- 💼 Goldman Sachs India CS Hackathon 2026
+- 📄 IEEE-published researcher — [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11507896) (ICTMIM 2026)
+- 🇮🇳 AI for Bharat Hackathon 2026 — built & submitted to Prototype Stage (AWS-sponsored)
+- 🤖 Economic Times GenAI Hackathon — Semi-Finalist
 - ☁️ AWS Academy Graduate — Cloud Foundations
 
 </td>
@@ -32,7 +32,7 @@ Backend · Full-Stack · AI/ML Engineering Internships · 2025–26 cycle
 | Project | Stack | Live? |
 |---|---|---|
 | [ContextKeeper](https://github.com/sanchita-88/contextkeeper) | FastAPI · AWS · RAG · Qdrant | ✅ [AWS](https://main.dzpsjg5p7bzun.amplifyapp.com/) |
-| [AeroFocus](https://github.com/sanchita-88/aerofocus) | Spring Boot · Redis · WebSocket | ✅ Render |
+| [AeroFocus](https://github.com/sanchita-88/aerofocus) | Spring Boot · Redis · WebSocket | ✅ [Vercel](https://aerofocus-ruby.vercel.app/) |
 | [Alpha Council](https://github.com/sanchita-88/Alpha-Council) | LangGraph · MCP · Groq | ✅ [Vercel](https://v0-rhetora-stock-analyst.vercel.app/) |
 | [TeleServe](https://github.com/sanchita-88/TeleServe) | Java EE · JDBC · MySQL | ✅ Screenshots |
 | [PriceRadar](https://github.com/sanchita-88/distributed-price-comparison-k8s) | K8s · Docker · FastAPI | 🔨 Active |
@@ -96,14 +96,14 @@ Fine-tuned `BERT (bert-base-uncased)` on **18,000+ postings**
 <td>
 
 **PCOS Clinical Risk Prediction** · Jan–May 2025
-IEEE Xplore · ICTMIM 2026 · 12+ ML/DL models · Bayesian Optimization · SMOTEENN · 541 patients · 50 reproducibility trials
+[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11507896) · ICTMIM 2026 · 12+ ML/DL models · Bayesian Optimization · SMOTEENN · 541 patients · 50 reproducibility trials
 
 </td>
 <td align="center">
 
 ![Accuracy](https://img.shields.io/badge/Accuracy-89.91%25-brightgreen?style=flat-square)
 ![F1](https://img.shields.io/badge/F1_Score-85.71%25-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Published-success?style=flat-square)
+[![Status](https://img.shields.io/badge/Status-Published-success?style=flat-square)](https://ieeexplore.ieee.org/abstract/document/11507896)
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ context snapshots · RAG-powered codebase Q&A · Mermaid.js diagrams · function
 ---
 
 <details open>
-<summary><b>✈️ AeroFocus — Airport-Themed Real-Time Focus Timer</b> &nbsp;|&nbsp; <a href="https://github.com/sanchita-88/aerofocus">GitHub</a> &nbsp;|&nbsp; <a href="#">Live Demo ↗</a> &nbsp;|&nbsp; <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=white"/></summary>
+<summary><b>✈️ AeroFocus — Airport-Themed Real-Time Focus Timer</b> &nbsp;|&nbsp; <a href="https://github.com/sanchita-88/aerofocus">GitHub</a> &nbsp;|&nbsp; <a href="https://aerofocus-ruby.vercel.app/">Live Demo ↗</a> &nbsp;|&nbsp; <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=white"/></summary>
 
 <br/>
 
