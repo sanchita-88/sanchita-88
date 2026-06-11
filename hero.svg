@@ -1,70 +1,146 @@
-<svg width="100%" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="280" rx="0" fill="#0D1117"/>
-  <g stroke="#1E3A5F" stroke-width="0.8" fill="none" opacity="0.7">
-    <line x1="0" y1="40" x2="120" y2="40"/>
-    <line x1="0" y1="80" x2="60" y2="80"/>
-    <line x1="0" y1="140" x2="90" y2="140"/>
-    <line x1="0" y1="200" x2="70" y2="200"/>
-    <line x1="0" y1="240" x2="110" y2="240"/>
-    <line x1="560" y1="30" x2="680" y2="30"/>
-    <line x1="580" y1="70" x2="680" y2="70"/>
-    <line x1="550" y1="120" x2="680" y2="120"/>
-    <line x1="590" y1="180" x2="680" y2="180"/>
-    <line x1="560" y1="230" x2="680" y2="230"/>
-    <line x1="570" y1="260" x2="680" y2="260"/>
-    <line x1="60" y1="0" x2="60" y2="80"/>
-    <line x1="90" y1="0" x2="90" y2="140"/>
-    <line x1="110" y1="240" x2="110" y2="280"/>
-    <line x1="120" y1="40" x2="120" y2="0"/>
-    <line x1="580" y1="0" x2="580" y2="70"/>
-    <line x1="560" y1="30" x2="560" y2="0"/>
-    <line x1="590" y1="180" x2="590" y2="280"/>
-    <line x1="620" y1="0" x2="620" y2="30"/>
-    <line x1="550" y1="120" x2="550" y2="280"/>
-    <polyline points="0,200 70,200 70,280"/>
-    <polyline points="0,240 110,240 110,280"/>
-    <polyline points="560,230 560,260 680,260"/>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sanchita Sabat — Backend, Full-Stack and AI/ML Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e16"/>
+      <stop offset="0.55" stop-color="#0f1320"/>
+      <stop offset="1" stop-color="#14182b"/>
+    </linearGradient>
+
+    <radialGradient id="glowWarm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff9e64" stop-opacity="0.40"/>
+      <stop offset="0.6" stop-color="#e0af68" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#e0af68" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowCool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sun" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffe6b8"/>
+      <stop offset="0.45" stop-color="#ffce8a"/>
+      <stop offset="1" stop-color="#ff9e64"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+      <stop offset="0" stop-color="#7dcfff"/>
+      <stop offset="0.35" stop-color="#7aa2f7"/>
+      <stop offset="0.7" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#ffb085"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .sans { font-family: "Segoe UI", "SF Pro Display", "Helvetica Neue", Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, monospace; }
+
+      .role { opacity: 0; }
+      .r1 { animation: cycle 9s ease-in-out infinite; }
+      .r2 { animation: cycle 9s ease-in-out infinite; animation-delay: 3s; }
+      .r3 { animation: cycle 9s ease-in-out infinite; animation-delay: 6s; }
+      @keyframes cycle {
+        0%   { opacity: 0; }
+        4%   { opacity: 1; }
+        29%  { opacity: 1; }
+        34%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      .caret { animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+
+      .twinkle { animation: tw 3.4s ease-in-out infinite; }
+      .d1 { animation-delay: 0s; }   .d2 { animation-delay: .5s; }
+      .d3 { animation-delay: 1.1s; } .d4 { animation-delay: 1.7s; }
+      .d5 { animation-delay: 2.3s; } .d6 { animation-delay: 2.9s; }
+      @keyframes tw { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+
+      .float { animation: fl 6s ease-in-out infinite; }
+      .f2 { animation-delay: 1.5s; } .f3 { animation-delay: 3s; } .f4 { animation-delay: 4.5s; }
+      @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+
+      .breathe { animation: br 7s ease-in-out infinite; transform-origin: 985px 132px; }
+      @keyframes br { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.06); opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect x="2" y="2" width="1196" height="356" rx="26" fill="url(#bg)" stroke="#23304d" stroke-width="1.5"/>
+
+  <!-- Ambient glows -->
+  <circle cx="160" cy="40" r="240" fill="url(#glowCool)"/>
+  <circle cx="985" cy="132" r="230" fill="url(#glowWarm)"/>
+
+  <!-- Cozy sunrise orb (right) -->
+  <g class="breathe">
+    <circle cx="985" cy="132" r="92" fill="url(#glowWarm)"/>
+    <circle cx="985" cy="132" r="48" fill="url(#sun)"/>
   </g>
-  <g fill="#1E4A7A" opacity="0.9">
-    <circle cx="60" cy="80" r="3"/>
-    <circle cx="90" cy="140" r="3"/>
-    <circle cx="110" cy="240" r="3"/>
-    <circle cx="120" cy="40" r="3"/>
-    <circle cx="70" cy="200" r="4"/>
-    <circle cx="580" cy="70" r="3"/>
-    <circle cx="550" cy="120" r="3"/>
-    <circle cx="560" cy="230" r="3"/>
-    <circle cx="590" cy="180" r="4"/>
-    <circle cx="620" cy="30" r="3"/>
+  <!-- orbit ring + travelling dot (airport / sky nod to AeroFocus) -->
+  <ellipse cx="985" cy="132" rx="138" ry="58" fill="none" stroke="#7aa2f7" stroke-opacity="0.25" stroke-width="1.5"/>
+  <g>
+    <circle cx="985" cy="74" r="4.5" fill="#7dcfff"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 985 132" to="360 985 132" dur="14s" repeatCount="indefinite"/>
   </g>
-  <circle cx="70" cy="200" r="4" fill="#378ADD" opacity="0.6"/>
-  <circle cx="590" cy="180" r="4" fill="#378ADD" opacity="0.6"/>
-  <circle cx="90" cy="140" r="3" fill="#1D9E75" opacity="0.5"/>
-  <circle cx="550" cy="120" r="3" fill="#1D9E75" opacity="0.5"/>
-  <rect x="160" y="40" width="2" height="200" fill="#185FA5" opacity="0.4" rx="1"/>
-  <text x="186" y="105" font-family="Fira Code,Consolas,monospace" font-size="38" font-weight="700" fill="#E6F1FB" letter-spacing="-0.5">Sanchita Sabat</text>
-  <text x="187" y="138" font-family="Fira Code,Consolas,monospace" font-size="14" fill="#6AD3F7" letter-spacing="0.3">Backend Engineer · Agentic AI · Cloud Infrastructure</text>
-  <line x1="186" y1="155" x2="520" y2="155" stroke="#1E3A5F" stroke-width="0.8"/>
-  <rect x="186" y="167" width="110" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
-  <circle cx="201" cy="179" r="4" fill="#FF9900"/>
-  <text x="210" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">AWS · Deployed</text>
-  <rect x="306" y="167" width="88" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
-  <circle cx="321" cy="179" r="4" fill="#1D9E75"/>
-  <text x="330" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">6 Projects</text>
-  <rect x="404" y="167" width="116" height="24" rx="12" fill="#0C2340" stroke="#185FA5" stroke-width="0.8"/>
-  <circle cx="419" cy="179" r="4" fill="#7F77DD"/>
-  <text x="428" y="184" font-family="Fira Code,Consolas,monospace" font-size="11" fill="#85B7EB">99.17% BERT</text>
-  <text x="187" y="222" font-family="Fira Code,Consolas,monospace" font-size="12">
-    <tspan fill="#2E6DA4">$</tspan>
-    <tspan fill="#6AD3F7"> whoami </tspan>
-    <tspan fill="#B4B2A9">→  3rd yr CSE · Manipal University Jaipur · 2027</tspan>
-  </text>
-  <text x="187" y="246" font-family="Fira Code,Consolas,monospace" font-size="12">
-    <tspan fill="#2E6DA4">$</tspan>
-    <tspan fill="#6AD3F7"> status  </tspan>
-    <tspan fill="#B4B2A9">→  open to backend · AI/ML internships · 2025-26</tspan>
-  </text>
-  <rect x="187" y="258" width="8" height="14" rx="1" fill="#6AD3F7" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+
+  <!-- Stars -->
+  <circle class="twinkle d1" cx="900" cy="60"  r="2"   fill="#c0caf5"/>
+  <circle class="twinkle d2" cx="1080" cy="80" r="1.6" fill="#bb9af7"/>
+  <circle class="twinkle d3" cx="1120" cy="200" r="2.2" fill="#7dcfff"/>
+  <circle class="twinkle d4" cx="850" cy="230" r="1.8" fill="#c0caf5"/>
+  <circle class="twinkle d5" cx="1060" cy="270" r="2"   fill="#ff9e64"/>
+  <circle class="twinkle d6" cx="940" cy="295" r="1.6" fill="#c0caf5"/>
+
+  <!-- Floating accent dots (left) -->
+  <circle class="float"    cx="60"  cy="300" r="3" fill="#7aa2f7" opacity="0.6"/>
+  <circle class="float f2" cx="430" cy="70"  r="2.5" fill="#bb9af7" opacity="0.6"/>
+  <circle class="float f3" cx="700" cy="300" r="3" fill="#7dcfff" opacity="0.5"/>
+  <circle class="float f4" cx="640" cy="60"  r="2.5" fill="#ff9e64" opacity="0.6"/>
+
+  <!-- ===== Text block (left) ===== -->
+  <text x="70" y="96" class="mono" font-size="18" fill="#9ece6a">const</text>
+  <text x="128" y="96" class="mono" font-size="18" fill="#9aa5ce">engineer =</text>
+
+  <!-- Name -->
+  <text x="68" y="168" class="sans" font-size="72" font-weight="800" fill="url(#nameGrad)" letter-spacing="0.5">Sanchita Sabat</text>
+
+  <!-- Terminal role line -->
+  <text x="70" y="222" class="mono" font-size="26" fill="#565f89">&gt;</text>
+  <rect class="caret" x="96" y="201" width="13" height="26" rx="2" fill="#7dcfff"/>
+  <g class="mono" font-size="26" font-weight="600">
+    <text class="role r1" x="120" y="222" fill="#c0caf5">Backend Engineer</text>
+    <text class="role r2" x="120" y="222" fill="#c0caf5">Full-Stack Developer</text>
+    <text class="role r3" x="120" y="222" fill="#c0caf5">AI / ML Engineer</text>
+  </g>
+
+  <!-- Sub line -->
+  <text x="70" y="258" class="sans" font-size="17" fill="#828bb8">B.Tech CSE &#8217;27  &#183;  Manipal University Jaipur  &#183;  Bharat &#127470;&#127475;</text>
+
+  <!-- Accent rule -->
+  <rect x="70" y="276" width="300" height="2.5" rx="1.25" fill="url(#rule)"/>
+
+  <!-- Pills -->
+  <g class="sans" font-size="14.5" font-weight="600">
+    <g>
+      <rect x="70" y="296" width="156" height="34" rx="17" fill="#16203a" stroke="#bb9af7" stroke-opacity="0.45"/>
+      <circle cx="90" cy="313" r="4" fill="#bb9af7"/>
+      <text x="102" y="318" fill="#cbb8ff">IEEE Published</text>
+    </g>
+    <g>
+      <rect x="238" y="296" width="150" height="34" rx="17" fill="#16203a" stroke="#ff9e64" stroke-opacity="0.45"/>
+      <circle cx="258" cy="313" r="4" fill="#ff9e64"/>
+      <text x="270" y="318" fill="#ffc69a">AWS Certified</text>
+    </g>
+    <g>
+      <rect x="400" y="296" width="196" height="34" rx="17" fill="#16203a" stroke="#9ece6a" stroke-opacity="0.5"/>
+      <circle cx="420" cy="313" r="4" fill="#9ece6a"/>
+      <text x="432" y="318" fill="#b7e08e">Open to Internships</text>
+    </g>
+  </g>
 </svg>
